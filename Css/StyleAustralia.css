@@ -1,0 +1,245 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    color: black;
+    background-color: rgb(235, 233, 233);
+}
+header div
+{
+    background-color: #0b2239;
+    margin: 0;
+    padding: 15px;
+}
+div a
+{
+    text-transform: capitalize;
+    text-decoration-line: none;
+    color: white;
+}
+
+header h1
+{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 45px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+nav
+{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+nav a
+{
+    display: inline;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+footer
+{
+    color: white;
+    text-align: center;
+    background-color: #0b2239;
+    margin: 0;
+    padding: 15px;
+    letter-spacing: 1px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 100;
+}
+footer p
+{
+    color: rgb(235, 35, 168);
+    font-weight: bold;
+}
+a
+{
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a.inactive:hover
+{
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(235, 35, 168);
+    border-bottom: 2px solid #0b2239;
+}
+.Logo
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #0b2239;
+
+}
+.body
+{
+    padding-top: 120px;
+}
+
+.container
+{
+    float: right;
+    width: 95%;
+    margin: 30px auto;
+}
+.according
+{
+    width: 100%;
+    border: 0px;
+    background: rgb(159, 169, 199);
+    font-size: 16px;
+    padding: 15px;
+}
+
+.list
+{
+    color: white;
+    background-color: #0b2239;
+    position: fixed;
+    top: 142.4px;
+    bottom: 66.8px;
+    border-right: 3px solid rgb(235, 233, 233);
+    border-bottom: 3px solid rgb(235, 233, 233);
+    width: 20%;
+    z-index: 100;
+}
+.list li
+{
+    padding-left: 15px;
+    font-size: 25px;
+    line-height: 100%;
+    list-style: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-left: 4px solid #0b2239;
+
+}
+
+.list li:hover,.list li.active
+{
+    background-color: rgba(0, 0, 0, 0.164);
+    color: rgb(235, 35, 168);
+    border-left: 4px solid rgb(235, 35, 168);
+    cursor: pointer;
+}
+.container
+{
+    width: 80%;
+    margin: 30px 20 auto;
+}
+
+.container p
+{
+    margin: 20px;
+}
+.BestPlaces h1,.sydney h1
+{
+    text-align: center;
+    text-shadow: rgb(235, 35, 168) 1px 1px;
+}
+li img
+{
+    width: 850px;
+    height: 400px;
+}
+.slider li
+{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.slider
+{
+    width: 850px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul
+{
+    margin-top: 20px;
+    position: relative;
+    width: 5100px;
+    padding: 0;
+    animation: sliding 25s ease-in-out infinite;
+}
+@keyframes sliding
+{
+    0%,5% {left: 0;}
+    10%,15% {left:-850px;}
+    20%,25% {left:-1700px ;}
+    30%,35% {left:-2550px ;}
+    40%,45% {left:-3400px ;}
+    50%,55% {left:-4250px ;}
+    60%,65% {left:-3400px ;}
+    70%,75% {left: -2550px;}
+    80%,85% {left: -1700px;}
+    90%,95% {left:-850px;}
+    100%,0% {left:0;}
+}
+
+#part1,#part2,#part3,#part4,#part5,#part6
+{
+    float: left;
+    margin-bottom: 20px;
+    width: 50%
+}
+.info p
+{
+    margin-right: 20px;
+}
+
+.info,.photo
+{
+    width: 100%;
+}
+.photo img
+{
+    width: 100%;
+}
+.container2
+{
+    margin: 0 30px 0 0; 
+}
+#line1,#line2,#line3,#line4,#line5,#line6
+{
+    display: none;
+}
+.BestPlaces p,.sydney p
+{
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 55px;
+    background-color: blanchedalmond;
+}
+.l1,.l2,.l3,.l4,.l5,.l6
+{
+    margin: 20px;
+}
+.sydney img
+{
+    margin-top: 20px;
+}
